@@ -1,6 +1,6 @@
 ---
 title: "Pipes"
-fauthor: "djani"
+author: "djani"
 date: today
 format:
   html:
