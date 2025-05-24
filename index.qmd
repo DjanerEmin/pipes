@@ -78,7 +78,7 @@ a %>% f(b, .)
 # is equivalent to 
 f(b, a)
 
-# with `.` placeholder for magrittr
+# with `_` placeholder for base r
 a |> (b, _)
 # is equivalent to 
 f(b, a)
