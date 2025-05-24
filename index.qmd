@@ -90,9 +90,9 @@ f(b, a)
 The power of the pipe becomes apparent when we have a long sequence of consecutive operations each taking the result of the previous one. In this case we are not interested in the intermediate results, but rather in the final result.
 
 ```{r}
-# long sequence of operation
 x <- c(1, 4, 9, 16, 25)
 
+# long sequence of operation
 x |>
   sqrt() |>
   log() |>
@@ -106,8 +106,7 @@ x4 <- round(x3, digits = 2)
 sort(x4, decreasing = TRUE)
 
 
-
-# vector of words
+# example 2 - cleaning vector of words
 sentences <- c(" Hello ", "world! ", "  How ", "are", " you? ")
 sentences
 length(sentences)
